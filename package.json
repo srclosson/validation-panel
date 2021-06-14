@@ -1,0 +1,29 @@
+{
+  "name": "srclosson-validation-panel",
+  "version": "1.0.0",
+  "description": "Panel for data validation testing",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch",
+    "sign": "grafana-toolkit plugin:sign",
+    "start": "yarn watch"
+  },
+  "author": "Stephanie Closson",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@grafana/data": "8.0.1",
+    "@grafana/toolkit": "8.0.1",
+    "@grafana/ui": "8.0.1",
+    "mocha": "9.0.0",
+    "@types/mocha": "8.2.2",
+    "chai": "4.3.4",
+    "@types/chai": "4.2.18",
+    "react-json-view": "1.21.3",
+    "emotion": "10.0.27"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
